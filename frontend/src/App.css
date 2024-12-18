@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.homepage {
+  margin-top: 50px;
+}
+
+.booking-page, .room-availability {
+  margin-top: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
