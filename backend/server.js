@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection setup
-mongoose.connect("mongodb://127.0.0.1:27017/quickstay", {
+mongoose.connect("mongodb+srv://nandinidirisala:DY4XRZHEn07UGp3s@cluster0.umtg3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
